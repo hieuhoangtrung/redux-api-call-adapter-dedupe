@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/321eeac/
+0	package.json	/^        "@babel\/plugin-transform-runtime",$/;"	s	array:babel.plugins.0
+0	package.json	/^      "@babel\/preset-env"$/;"	s	array:babel.presets
+0	package.json	/^      [$/;"	a	array:babel.plugins
+1	package.json	/^        {$/;"	o	array:babel.plugins.0
+1	package.json	/^      "@babel\/plugin-syntax-dynamic-import",$/;"	s	array:babel.plugins
+1.0.0 (2017-07-09)	CHANGELOG.md	/^# 1.0.0 (2017-07-09)$/;"	c
+1.0.0-17 (2017-07-08)	CHANGELOG.md	/^# 1.0.0-17 (2017-07-08)$/;"	c
+2	package.json	/^      "@babel\/plugin-syntax-import-meta",$/;"	s	array:babel.plugins
+3	package.json	/^      "@babel\/plugin-proposal-class-properties",$/;"	s	array:babel.plugins
+4	package.json	/^      "@babel\/plugin-proposal-json-strings"$/;"	s	array:babel.plugins
+@babel/cli	package.json	/^    "@babel\/cli": "^7.0.0",$/;"	s	object:devDependencies
+@babel/core	package.json	/^    "@babel\/core": "^7.0.0",$/;"	s	object:devDependencies
+@babel/plugin-proposal-class-properties	package.json	/^    "@babel\/plugin-proposal-class-properties": "^7.0.0",$/;"	s	object:devDependencies
+@babel/plugin-proposal-json-strings	package.json	/^    "@babel\/plugin-proposal-json-strings": "^7.0.0",$/;"	s	object:devDependencies
+@babel/plugin-syntax-dynamic-import	package.json	/^    "@babel\/plugin-syntax-dynamic-import": "^7.0.0",$/;"	s	object:devDependencies
+@babel/plugin-syntax-import-meta	package.json	/^    "@babel\/plugin-syntax-import-meta": "^7.0.0",$/;"	s	object:devDependencies
+@babel/plugin-transform-runtime	package.json	/^    "@babel\/plugin-transform-runtime": "^7.0.0",$/;"	s	object:devDependencies
+@babel/preset-env	package.json	/^    "@babel\/preset-env": "^7.0.0"$/;"	s	object:devDependencies
+Change Log	CHANGELOG.md	/^# Change Log$/;"	c
+Features	CHANGELOG.md	/^### Features$/;"	S
+[1.1.1](https://github.com/tungv/redux-api-call/compare/v1.1.0...v1.1.1) (2019-07-23)	CHANGELOG.md	/^## [1.1.1](https:\/\/github.com\/tungv\/redux-api-call\/compare\/v1.1.0...v1.1.1) (2019-07-23)$/;"	s
+author	package.json	/^  "author": "Tung Vu <me@tungv.com>",$/;"	s
+babel	package.json	/^  "babel": {$/;"	o
+build	package.json	/^    "build": "babel .\/src -d .\/build",$/;"	s	object:scripts
+build:clean	package.json	/^    "build:clean": "rm -rf .\/build",$/;"	s	object:scripts
+corejs	package.json	/^          "corejs": 2$/;"	n	object:babel.plugins.0.1
+description	package.json	/^  "description": "redux-api-call (npm.im\/redux-api-call) adapter to dedupe similar request\\"",$/;"	s
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+lastReqByName	src/index.js	/^  const lastReqByName = {};$/;"	C
+license	package.json	/^  "license": "MIT",$/;"	s
+main	package.json	/^  "main": "build\/index.js",$/;"	s
+name	package.json	/^  "name": "redux-api-call-adapter-dedupe",$/;"	s
+plugins	package.json	/^    "plugins": [$/;"	a	object:babel
+prepublish	package.json	/^    "prepublish": "npm run build"$/;"	s	object:scripts
+presets	package.json	/^    "presets": [$/;"	a	object:babel
+repository	package.json	/^  "repository": "tungv\/redux-api-call",$/;"	s
+resp	src/index.js	/^    const resp = await next(req);$/;"	C
+scripts	package.json	/^  "scripts": {$/;"	o
+version	package.json	/^  "version": "1.1.1",$/;"	s
